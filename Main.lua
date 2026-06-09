@@ -9,7 +9,7 @@
 designed using localmaze gui creator
 ]=]
 
--- Instances: 12 | Scripts: 2 | Modules: 0 | Tags: 0
+-- Instances: 11 | Scripts: 1 | Modules: 0 | Tags: 0
 local LMG2L = {};
 
 -- Players.Games2011_games.PlayerGui.ScreenGui
@@ -54,76 +54,67 @@ LMG2L["UICorner_5"] = Instance.new("UICorner", LMG2L["Text_4"]);
 LMG2L["UICorner_5"]["CornerRadius"] = UDim.new(1, 0);
 
 
--- Players.Games2011_games.PlayerGui.ScreenGui.Frame.LocalScript2
-LMG2L["LocalScript2_6"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
-LMG2L["LocalScript2_6"]["Name"] = [[LocalScript2]];
-
-
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.Rumbtn
-LMG2L["Rumbtn_7"] = Instance.new("ImageButton", LMG2L["Frame_2"]);
-LMG2L["Rumbtn_7"]["BorderSizePixel"] = 0;
-LMG2L["Rumbtn_7"]["BackgroundTransparency"] = 1;
--- LMG2L["Rumbtn_7"]["ImageContent"] = ;
-LMG2L["Rumbtn_7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["Rumbtn_7"]["Image"] = [[rbxassetid://8517323790]];
-LMG2L["Rumbtn_7"]["Size"] = UDim2.new(0.24742, 0, 1, 0);
-LMG2L["Rumbtn_7"]["Name"] = [[Rumbtn]];
-LMG2L["Rumbtn_7"]["Position"] = UDim2.new(0, 146, 0, 0);
+LMG2L["Rumbtn_6"] = Instance.new("ImageButton", LMG2L["Frame_2"]);
+LMG2L["Rumbtn_6"]["BorderSizePixel"] = 0;
+LMG2L["Rumbtn_6"]["BackgroundTransparency"] = 1;
+-- LMG2L["Rumbtn_6"]["ImageContent"] = ;
+LMG2L["Rumbtn_6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["Rumbtn_6"]["Image"] = [[rbxassetid://8517323790]];
+LMG2L["Rumbtn_6"]["Size"] = UDim2.new(0.24742, 0, 1, 0);
+LMG2L["Rumbtn_6"]["Name"] = [[Rumbtn]];
+LMG2L["Rumbtn_6"]["Position"] = UDim2.new(0, 146, 0, 0);
 
 
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.Rumbtn.UICorner
-LMG2L["UICorner_8"] = Instance.new("UICorner", LMG2L["Rumbtn_7"]);
-LMG2L["UICorner_8"]["CornerRadius"] = UDim.new(1, 0);
+LMG2L["UICorner_7"] = Instance.new("UICorner", LMG2L["Rumbtn_6"]);
+LMG2L["UICorner_7"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.TextLabel
-LMG2L["TextLabel_9"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
-LMG2L["TextLabel_9"]["TextWrapped"] = true;
-LMG2L["TextLabel_9"]["Interactable"] = false;
-LMG2L["TextLabel_9"]["BorderSizePixel"] = 0;
-LMG2L["TextLabel_9"]["TextSize"] = 24;
-LMG2L["TextLabel_9"]["TextTransparency"] = 0.7;
-LMG2L["TextLabel_9"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextLabel_9"]["TextScaled"] = true;
-LMG2L["TextLabel_9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-LMG2L["TextLabel_9"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-LMG2L["TextLabel_9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-LMG2L["TextLabel_9"]["BackgroundTransparency"] = 1;
-LMG2L["TextLabel_9"]["Size"] = UDim2.new(0.47423, 0, 0.75, 0);
-LMG2L["TextLabel_9"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-LMG2L["TextLabel_9"]["Text"] = [[Quickexc]];
-LMG2L["TextLabel_9"]["Position"] = UDim2.new(0, 34, 0, 4);
+LMG2L["TextLabel_8"] = Instance.new("TextLabel", LMG2L["Frame_2"]);
+LMG2L["TextLabel_8"]["TextWrapped"] = true;
+LMG2L["TextLabel_8"]["Interactable"] = false;
+LMG2L["TextLabel_8"]["BorderSizePixel"] = 0;
+LMG2L["TextLabel_8"]["TextSize"] = 24;
+LMG2L["TextLabel_8"]["TextTransparency"] = 0.7;
+LMG2L["TextLabel_8"]["TextStrokeColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_8"]["TextScaled"] = true;
+LMG2L["TextLabel_8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_8"]["FontFace"] = Font.new([[rbxasset://fonts/families/ComicNeueAngular.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+LMG2L["TextLabel_8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+LMG2L["TextLabel_8"]["BackgroundTransparency"] = 1;
+LMG2L["TextLabel_8"]["Size"] = UDim2.new(0.47423, 0, 0.75, 0);
+LMG2L["TextLabel_8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+LMG2L["TextLabel_8"]["Text"] = [[Quickexc]];
+LMG2L["TextLabel_8"]["Position"] = UDim2.new(0, 34, 0, 4);
 
 
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.TextLabel.UICorner
-LMG2L["UICorner_a"] = Instance.new("UICorner", LMG2L["TextLabel_9"]);
-LMG2L["UICorner_a"]["CornerRadius"] = UDim.new(1, 0);
+LMG2L["UICorner_9"] = Instance.new("UICorner", LMG2L["TextLabel_8"]);
+LMG2L["UICorner_9"]["CornerRadius"] = UDim.new(1, 0);
 
 
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.LocalScript
-LMG2L["LocalScript_b"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
+LMG2L["LocalScript_a"] = Instance.new("LocalScript", LMG2L["Frame_2"]);
 
 
 
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.UIStroke
-LMG2L["UIStroke_c"] = Instance.new("UIStroke", LMG2L["Frame_2"]);
-LMG2L["UIStroke_c"]["Color"] = Color3.fromRGB(255, 255, 255);
+LMG2L["UIStroke_b"] = Instance.new("UIStroke", LMG2L["Frame_2"]);
+LMG2L["UIStroke_b"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 
--- Players.Games2011_games.PlayerGui.ScreenGui.Frame.LocalScript2
-local function C_6()
-	local script = LMG2L["LocalScript2_6"];
-	-- 가장 단순한 실행 기능	
-	LMG2L["Rumbtn_6"].MouseButton1Click:Connect(function()	
-	    loadstring(LMG2L["Text_4"].Text)()	
-	end)	
-end;
-task.spawn(C_6);
 -- Players.Games2011_games.PlayerGui.ScreenGui.Frame.LocalScript
-local function C_b()
-	local script = LMG2L["LocalScript_b"];
+local function C_a()
+	local script = LMG2L["LocalScript_a"];
 	LMG2L["ScreenGui_1"]["ResetOnSpawn"] = false; 	
 end;
-task.spawn(C_b);
+task.spawn(C_a);
+
+LMG2L["Rumbtn_6"].MouseButton1Click:Connect(function()
+    loadstring(LMG2L["Text_4"].Text)()
+end)
 
 return LMG2L["ScreenGui_1"], require;
+
